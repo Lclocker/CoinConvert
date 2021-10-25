@@ -1,16 +1,14 @@
 # coin_convert
 
-A new Flutter project.
+Um aplicativo de conversão de moedas feito em flutter.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Para executar esse projeto, voce pode pegar o arquivo apk-release.apk e instala-lo no seu smartphone.
 
-A few resources to get you started if this is your first Flutter project:
+Caso queira executar a partir do codigo, é preciso instalar o flutter e suas dependencias.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+ - Passo a passo de como instalar e configutar o flutter [aqui.](https://medium.com/flutter-comunidade-br/instalando-e-configurando-flutter-no-windows-cae74711df1e)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Apos o termino da configuração navegeue ate a pasta do projeto e execute o comando flutter run.
+
