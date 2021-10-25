@@ -35,13 +35,8 @@ Future<Map> getListCoin() async {
 
 Future<Map> getAllRates() async {
   var response = await http.get(url_currencies);
-  print(url_currencies);
   final json = jsonDecode(response.body) as Map;
-  print(json);
   rates = json['rates'] as Map;
-  print(rates);
-
-  print(rates['BRL']);
 
   return rates;
 }
@@ -50,7 +45,5 @@ String convertCoin(String value, String coinOrigin, String coinDestiny) {
   String output = (double.parse(value) / rates[coinOrigin] * rates[coinDestiny])
       .toStringAsFixed(2)
       .toString();
-  print("$coinOrigin, $coinDestiny, $value");
-  print(output);
   return output;
 }
